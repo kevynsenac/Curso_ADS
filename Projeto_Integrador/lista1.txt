@@ -1,9 +1,9 @@
 LISTA DE EXERCICIOS 1 - AULA 12/08/26
 Legenda: 
-✅= Feita e corrigida
-🟡= Somente feita
-🔴= Não feita ou incompleta
-...= Parei o ex. aqui, continuarei depois a partir deste ponto
+✅= Realizada e corrigida
+🟡= Realizada mas sem correção
+🔴= Incompleta ou não realizada
+...= Lembrete pessoal de onde prosseguir em determinado código
 
 1) Faça um programa que receba quatro números inteiros, calcule e mostre a soma desses números. ✅
 ALGORITMO
@@ -36,7 +36,7 @@ FIM_ALGORITMO.
 
 4) Faça um programa que receba o salário de um funcionário, calcule e mostre o novo salário, sabendo-se que este sofreu um aumento de 25 porcento. ✅
 ALGORITMO
-DECLARE S, NS NÚMERICO
+DECLARE S,NS NÚMERICO
 ESCREVA "INSIRA O SALÁRIO"
 LEIA S
 NS<- S*1.25
@@ -45,7 +45,7 @@ FIM_ALGORITMO.
 
 5) Faça um programa que receba o salário de um funcionário e o percentual de aumento, calcule e mostre o valor do aumento e o novo salário. 🟡
 ALGORITMO
-DECLARE S, PA, VA NÚMERICO, SN NÚMERICO
+DECLARE S,PA,VA,SN NÚMERICO
 ESCREVA "INSIRA O SALÁRIO ATUAL"
 LEIA S
 ESCREVA "INSIRA O PERCENTUAL DE AUMENTO"
@@ -55,7 +55,8 @@ VA<- SN-SA
 ESCREVA "SALÁRIO NOVO É",SN "E VALOR DE AUMENTO FOI",VA
 FIM_ALGORITMO.
 
-6) Faça um programa que receba o salário base de um funcionário, calcule e mostre o salário a receber, sabendo-se que o funcionário tem gratificação de 5 porcento sobre o salário base e paga imposto de 7 porcento também sobre o salário base. 🔴
+6) Faça um programa que receba o salário base de um funcionário, calcule e mostre o salário a receber, 
+sabendo-se que o funcionário tem gratificação de 5 porcento sobre o salário base e paga imposto de 7 porcento também sobre o salário base. 🔴
 ALGORITMO
 DECLARE S,SR NUMÉRICO
 ESCREVA "INSIRA O SALÁRIO"

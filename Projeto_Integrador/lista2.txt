@@ -1,9 +1,9 @@
-LISTA DE EXERCICIOS 2 - AULA 12/08/26 (a lista 2 é descrita como 3 no documento por algum motivo)
+LISTA DE EXERCICIOS 2 - AULA 12/08/26
 Legenda: 
-✅= Feita e corrigida
-🟡= Somente feita
-🔴= Não feita ou incompleta
-...= Parei o ex. aqui, continuarei depois a partir deste ponto
+✅= Realizada e corrigida
+🟡= Realizada mas sem correção
+🔴= Incompleta ou não realizada
+...= Lembrete pessoal de onde prosseguir em determinado código
 
 1) Faça um programa que calcule e mostre a área de um círculo. Sabe-se que: Área = π ∗ R2 ✅
 ALGORITMO
@@ -14,3 +14,39 @@ LEIA R
 A<- PI*R*R
 ESCREVA "ÁREA É",A
 FIM_ALGORITMO.
+
+2) Faça um programa que receba um número positivo e maior que zero, calcule e mostre:
+ a) o número digitado ao quadrado;
+ b) o número digitado ao cubo;
+ c) a raiz quadrada do número digitado;
+ d) a raiz cúbica do número digitado; ✅
+ALGORITMO
+DECLARE N,Q,C,RQ,RC NÚMERICA
+ESCREVA "INSIRA O NÚMERO"
+LEIA N
+ESCREVA "QUADRADO =",Q<-N*N
+ESCREVA "CUBO =",C<-N*N*N
+ESCREVA "RAIZ QUADRADA =",RQ<-N**(1/2)
+ESCREVA "RAIZ CÚBICA =",RC<-N**(1/3)
+FIM_ALGORITMO
+
+3) Faça um programa que receba dois números maiores que zero, calcule e mostre um elevado ao outro. ✅
+ALGORITMO
+DECLARE N1,N2,P1,P2 NÚMERICO
+ESCREVA "INSIRA OS NÚMEROS"
+LEIA N1,N2
+ESCREVA "N1 ELEVADO",N2," = ",P1<-POT(N1,N2)
+ESCREVA "N2 ELEVADO",N1," = ",P2<-POT(N2,N1)
+FIM_ALGORITMO
+
+4) Faça um programa que receba uma medida em pés, faça as conversões a seguir e mostre os
+resultados. Sabendo que 1 pé= 12 polegadas, 1 jarda = 3 pés, 1 milha= 1,760 jardas.
+ a) polegadas;
+ b) jardas;
+ c) milhas; 🔴
+ALGORITMO
+...
+FIM_ALGORITMO
+
+
+Há mais exercícios na lista no blackboard.
