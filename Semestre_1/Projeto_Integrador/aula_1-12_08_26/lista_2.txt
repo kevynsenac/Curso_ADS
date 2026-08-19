@@ -12,7 +12,7 @@ PI <- 3.1415
 ESCREVA "INSIRA O VALOR DO RAIO"
 LEIA R
 A <- PI * R * R
-ESCREVA "ÁREA É ", A
+ESCREVA     
 FIM_ALGORITMO.
 
 2) Faça um programa que receba um número positivo e maior que zero, calcule e mostre:
@@ -61,7 +61,7 @@ FIM_ALGORITMO.
 
 5) Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre: 
  a) a idade dessa pessoa; 
- b) quantos anos ela terá em 2050. 🟡
+ b) quantos anos ela terá em 2050. ✅
 ALGORITMO
 DECLARE ANOS_NASC, ANO_ATUAL, IDADE, IDADE_2050 NUMÉRICO
 ESCREVA "INSIRA O ANO DE NASCIMENTO E DEPOIS O ANO ATUAL"
@@ -76,7 +76,7 @@ FIM_ALGORITMO.
 Faça um programa que receba o preço de fábrica de um veículo, o percentual de lucro do distribuidor e o percentual de impostos, calcule e mostre: 
  a) o valor correspondente ao lucro do distribuidor; 
  b) o valor correspondente aos impostos; 
- c) o preço final do veículo. 🔴
+ c) o preço final do veículo. ✅
 ALGORITMO
 DECLARE PRECO_FAB, PERC_DIST, PERC_IMP, VLR_DIST, VLR_IMP, PRECO_FINAL NUMÉRICO
 ESCREVA "INSIRA O PREÇO DE FÁBRICA"

@@ -18,7 +18,7 @@ ALGORITMO
 DECLARE n1, n2, resultado NUMÉRICO
 ESCREVA "Digite os dois números: "
 LEIA n1, n2
-resultado <- n1-n2
+resultado <- n1 - n2
 ESCREVA "A subtração foi: ", resultado
 FIM_ALGORITMO.
 
@@ -27,7 +27,7 @@ ALGORITMO
 DECLARE base, altura, area NUMÉRICO
 ESCREVA "Digite a base e a altura do seu retângulo: "
 LEIA base, altura
-area <- base*altura
+area <- base * altura
 ESCREVA "A área do seu retângulo é: ", area
 FIM_ALGORITMO.
 
@@ -36,7 +36,7 @@ ALGORITMO
 DECLARE n1, n2, n3, media NUMÉRICO
 ESCREVA "Digite as 3 notas: "
 LEIA n1, n2, n3
-media <- (n1+n2+n3)/3
+media <- (n1 + n2 + n3) / 3
 ESCREVA "A média das notas foi: ", media
 FIM_ALGORITMO.
 
@@ -45,6 +45,6 @@ ALGORITMO
 DECLARE salario, salario_aumentado NUMÉRICO
 ESCREVA "Digite o salário: "
 LEIA salario
-salario_aumentado <- salario*1.15
+salario_aumentado <- salario * 1.15
 ESCREVA "O salário com aumento de 15% será: ", salario_aumentado
 FIM_ALGORITMO.
