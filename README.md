@@ -1,6 +1,6 @@
 # 📚 ADS Senac - Repositório de Exercícios e Estudos
 
-Bem-vindo(a) ao meu repositório central de estudos! Este espaço é dedicado a armazenar códigos, resoluções de listas de exercícios, projetos e anotações desenvolvidos ao longo do meu curso de **Análise e Desenvolvimento de Sistemas (ADS) no Senac**.
+Bem-vindo(a) ao meu repositório central de estudos! Este espaço é dedicado a armazenar códigos, resoluções de listas de exercícios, projetos e/ou anotações desenvolvidos ao longo do meu curso de **Análise e Desenvolvimento de Sistemas (ADS) no Senac**.
 
 ---
 

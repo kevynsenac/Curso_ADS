@@ -1,0 +1,2 @@
+-- Ainda não fizemos nenhum exercício e o outro arquivo é um template 
+-- disponibilizado pelo professor provavelmente para aulas futuras.
